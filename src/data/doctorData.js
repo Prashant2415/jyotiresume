@@ -52,7 +52,7 @@ const doctorData = {
   },
 
   services: {
-    title: "Services I Offer",
+    title: "Services",
     description:
       "I provide comprehensive women’s healthcare services, including high-risk pregnancy management, advanced gynecological procedures, and preventive screening — always with a commitment to safety, compassion, and clinical excellence.",
 

@@ -775,7 +775,8 @@ p {
     }
 
     .research-sub-container {
-        flex-direction: column;
+                flex-direction: column;
+        align-items: center;
     }
 
     .training-container,
@@ -798,6 +799,26 @@ p {
     .subcard-container {
         width: 94%;
     }
+    .about-description,
+    .services__panel,
+    .experience__panel,
+    .education-container,
+    .research-container,
+    .contact-container{
+        transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
+    }
+    .about-description:hover,
+    .services__panel:hover,
+    .experience__panel:hover,
+    .education-container:hover,
+    .research-container:hover,
+    .contact-container:hover{
+    transform: translateY(-8px);
+    border: 1px solid var(--button-bg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35), 0 0 18px rgba(46, 196, 182, 0.25);}
 }
 
 /* ============================= */
@@ -834,6 +855,26 @@ p {
     .skills__card {
         width: 12rem;
     }
+    .about-description,
+    .services__panel,
+    .experience__panel,
+    .education-container,
+    .research-container,
+    .contact-container{
+        transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
+    }
+    .about-description:hover,
+    .services__panel:hover,
+    .experience__panel:hover,
+    .education-container:hover,
+    .research-container:hover,
+    .contact-container:hover{
+    transform: translateY(-8px);
+    border: 1px solid var(--button-bg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35), 0 0 18px rgba(46, 196, 182, 0.25);}
 }
 
 
@@ -887,4 +928,24 @@ p {
     .research-thesis-container {
         text-align: left;
     }
+    .about-description,
+    .services__panel,
+    .experience__panel,
+    .education-container,
+    .research-container,
+    .contact-container{
+        transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
+    }
+    .about-description:hover,
+    .services__panel:hover,
+    .experience__panel:hover,
+    .education-container:hover,
+    .research-container:hover,
+    .contact-container:hover{
+    transform: translateY(-8px);
+    border: 1px solid var(--button-bg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35), 0 0 18px rgba(46, 196, 182, 0.25);}
 }
